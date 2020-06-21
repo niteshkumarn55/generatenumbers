@@ -13,7 +13,7 @@ import java.io.IOException;
 
 @RestController
 @RequestMapping("/api")
-public class NumberGeneratorController {
+public class NumberGeneratorController extends BaseController{
 
     @Autowired
     FileServiceImpl fileService;
